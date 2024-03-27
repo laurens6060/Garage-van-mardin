@@ -1,0 +1,79 @@
+.page-background-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+}
+
+.page-title {
+    text-align: center;
+    align-content: center;
+    color: #B0903D;
+    margin-top: 2%;
+}
+
+li {
+    color: white;
+}
+
+h4 {
+    color: #B0903D;
+}
+
+h1 {
+    color: #B0903D;
+}
+
+h2 {
+    color: #B0903D !important;
+}
+
+p {
+    font-size: large;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+.dienst-info {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+}
+
+.card {
+    background-color: #1e1d1dc6;
+    height: 100%;
+}
+
+h2 {
+    color: white;
+    font-size: 2.4rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    content: flex;
+}
+
+.bosch-logo {
+    width: 7%;
+}
+
+@media screen and (max-width: 768px) {
+    .card-img-top {
+        height: 50vw;
+    }
+
+}

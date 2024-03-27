@@ -1,0 +1,85 @@
+li {
+    color: white;
+}
+
+h4 {
+    color: #B0903D;
+}
+
+h1 {
+    color: #B0903D;
+}
+
+.page-title {
+    text-align: center;
+    align-content: center;
+    color: #B0903D;
+    font-size: 30rem;
+}
+
+.page-background-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+.card {
+    border-radius: 4px;
+    border: none;
+    background: #B0903D;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+    height: 20vh;
+    width: 60%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+    background-color: #B0903D;
+}
+
+.home-info {
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+}
+
+.bosch-logo {
+    width: 7%;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        border-radius: 4px;
+        border: none;
+        background: #B0903D;
+        box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+        transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+        padding: 14px 80px 18px 36px;
+        cursor: pointer;
+        height: 20vh;
+        width: 60%;
+    }
+
+    .call-to-action-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 23%;
+    }
+}

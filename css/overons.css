@@ -1,0 +1,64 @@
+.page-background-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+}
+
+.page-title {
+    text-align: center;
+    align-content: center;
+    color: #B0903D;
+    margin-top: 2%;
+}
+
+.overons-info {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 10.9rem;
+    margin-top: 5rem;
+}
+
+.bosch-logo {
+    width: 7%;
+}
+
+li {
+    color: white;
+}
+
+h4 {
+    color: #B0903D;
+}
+
+h1 {
+    color: #B0903D;
+}
+
+h2 {
+    color: #B0903D !important;
+}
+
+p {
+    font-size: large;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+.carousel-inner {
+    height: 600px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}

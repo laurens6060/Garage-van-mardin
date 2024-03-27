@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', monospace;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #000000c6;
+}
+
+footer {
+    background-color: #000000c6;
+    color: #B0903D;
+    padding: 2rem;
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: #B0903D;
+    text-decoration: none;
+}
+
+span {
+    font-size: 1.5rem;
+    color: #B0903D;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navbar {
+    margin: 0%;
+    padding: 0%;
+}
+
+.company-logo {
+    width: 10%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.navbar-nav .nav-link {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.navbar-brand {
+    margin-left: 2rem;
+    margin-right: 4rem;
+    font-size: 2rem;
+    color: #B0903D;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #B0903D;
+    font-weight: bold;
+    margin-right: 5rem;
+    height: 100%;
+    font-size: large;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: #B0903D;
+    height: 100%;
+    width: 100%;
+    size: inherit;
+}
+
+.navbar-brand:hover {
+    color: #B0903D;
+    text-decoration: none;
+}
+
+.dropdown {
+    color: #B0903D;
+}
+
+.dropdown-menu {
+    color: #B0903D;
+    background-color: rgb(29, 29, 31);
+}
+
+.dropdown-item {
+    color: #B0903D;
+}
+
+.dropdown-item:hover {
+    color: white;
+    background-color: #B0903D;
+}
+
+.navbar-toggler {
+    background-color: #B0903D;
+    color: #B0903D;
+    border: 0px;
+    margin: 1rem;
+}
+
+.nav-item>li>.dropdown-toggle {
+    color: #B0903D;
+}
+
+.bosch-logo {
+    width: 7%;
+}
+
+@media (max-width: 980px) {
+    .company-logo {
+        display: none;
+    }
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000c6;
+    color: #B0903D;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-img {
+    margin-right: 2rem;
+    width: 15%;
+    flex: auto;
+}
